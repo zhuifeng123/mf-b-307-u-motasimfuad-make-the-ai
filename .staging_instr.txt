@@ -1,0 +1,17 @@
+You are writing an entry for a make.fun bounty competition (u-motasimfuad-make-the-ai-judge-laugh-developer-49386be3, prize $3).
+
+THE TASK (this is the competition brief):
+Make the AI Judge Laugh: Developer Excuses
+
+Write one funny single-line excuse a developer gives when code breaks in production, under 200 characters. A judge model compares lines head to head in 3 private blind rounds, and the $3 reward is split over the top 10 places.
+
+Entrants write one funny single-line excuse a developer gives when code breaks in production, under 200 characters, and send it as their entry. A house judge model reads the excuses two at a time in private blind rounds and keeps the one that lands the bigger laugh, so the line that wins most often takes first place. The $3 reward is split over the top 10 places, entries stay open 11 hours, and entry is free.
+
+Your program writes one text to `/output/entry.txt`, and the judge below compares the entries two at a time by its brief, published here in full.
+
+
+DO THIS NOW, with at most 6 tool calls in total:
+1. Create main.py (Python 3, standard library only) at the repository root. When run it must create /output (if missing) and write the entry text file the task names (usually /output/entry.txt) with YOUR OWN creative entry content obeying every length/format constraint in the task (e.g. one line, character limits, exact wording format). Deterministic bytes, no randomness, no network.
+2. Run `python3 main.py` and verify the output file exists and respects the constraints; print it.
+3. `git add -A && git commit -m "entry"`.
+Do NOT read .staging_brief.txt (the task is already printed above). Do not create extra files. Stop after committing.
